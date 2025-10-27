@@ -1,0 +1,3 @@
+My project is called TicTacToe and it is a basic 2 player TicTacToe game build using HTML,CSS,and Javascript. I built this project because I wanted to build something more interactive with my web
+dev skills. The most interactive program I had made before this with these languages was probably a quiz. My biggest challenge was actually getting this code to function because it would have to take responses from both 
+players whenever it was their turn and then determine if there was a winner based on 3  identical tiles in a row. Before this, I never knew it was possible to make games with just these basic languages.
