@@ -1,0 +1,103 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Cormorant:wght@400;600&family=Poppins:wght@300;400&display=swap"); */
+*{
+    padding: 0;
+    margin:0;
+    /*font-family: 'Anton';*/
+      font-family: 'Rubik Bubbles', system-ui;
+}
+
+
+
+
+.background {
+    background-color: #12181B;
+    height:100vh;
+    padding-top:1px;
+}
+.title{
+    color:white;
+    text-align: center;
+    font-size:40px;
+    margin-top: 10%;
+    
+    text-shadow:
+    0 0 5px #8a2be2, 
+    0 0 10px #0000ff, 
+    0 0 20px #8a2be2, 
+    0 0 40px #0000ff; 
+
+    
+}
+.display{
+    color:white;
+    font-size:25px;
+    text-align:center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide{
+    display:none;
+}
+
+.container{
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:33% 33% 33%;
+    max-width: 300px; 
+
+    text-shadow:
+    0 0 5px #8a2be2, 
+    0 0 10px #0000ff, 
+    0 0 20px #8a2be2, 
+    0 0 40px #0000ff; 
+}
+
+.tile{
+    border:1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 50px;
+    cursor:pointer;
+        text-shadow:
+    0 0 5px #8a2be2, 
+    0 0 10px #0000ff, 
+    0 0 20px #8a2be2, 
+    0 0 40px #0000ff; 
+}
+.playerX{
+    color:#8a2be2;
+}
+
+.playerO{
+    color:#0000ff;
+}
+
+.controls{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    margin-top:1em;
+}
+
+#playagain{
+    background-image: linear-gradient(to right, #8a2be2, #0000ff);
+    color:white;
+    padding:8px;
+    border-radius:8px;
+    border:none;
+    font-size:20px;
+    margin-left: 1em;
+    cursor: pointer;
+            text-shadow:
+    0 0 5px #8a2be2, 
+    0 0 10px #0000ff, 
+    0 0 20px #8a2be2, 
+    0 0 40px #0000ff; 
+    
+}
